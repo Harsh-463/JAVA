@@ -28,7 +28,7 @@ public class MergeSort {
                 mix[k] = first[i];
                 i++;
             }else{
-                mix[j] = second[j];
+                mix[k] = second[j];
                 j++;
             }
             k++;
@@ -46,3 +46,4 @@ public class MergeSort {
         return mix;
     }
 }
+
